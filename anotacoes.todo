@@ -1,0 +1,10 @@
+
+Comando para Rodar o RabbitMQ usando Docker:
+   ☐ docker-compose down
+            docker-compose up --build
+
+    ☐ Configurações do RabbitMQ no application.properties:
+            spring.rabbitmq.host=rabbitmq
+            spring.rabbitmq.port=5672
+            spring.rabbitmq.username=guest
+            spring.rabbitmq.password=guest
