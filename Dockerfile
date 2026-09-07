@@ -52,3 +52,6 @@ COPY --from=build /app/target/*.jar app.jar
 
 # EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+#maltrap
+#0536702a0ebabe72526ff2cfe954d16a
